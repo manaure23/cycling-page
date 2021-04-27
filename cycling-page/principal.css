@@ -6,6 +6,8 @@
     --font-style-title: oblique;
 }
 header{
+    position: sticky;
+    top: 0px;
     margin-top: -8px;
     margin-left: -8px;
     margin-right: -8px;
@@ -46,6 +48,9 @@ header nav li{
     margin-left: 50px;
     margin-right: 50px;
 }
+main #types-bycicles p{
+    width: 70%;
+}
 
 #barra-buscador{
     margin-top: 10px;
@@ -57,7 +62,6 @@ header nav li{
     padding-right: 35px;
     padding-left: 35px;
     padding-bottom: 10px;
-    position: relative;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +82,7 @@ header nav li{
     margin-right: 15px;
 }
 
-#types-bycicles>h2{
+#titulo-tipos-bicicletas{
     text-align: center;
 }
 main h2{
@@ -101,6 +105,31 @@ main h4{
     display:flex;
     justify-content: center;
     align-items: center;
-    width: 750px;
+    width: 65%;
     height: 450px;
+}
+#seccion-publicidad{
+    /*float: right;
+    position: fixed;
+    bottom: ;
+    left: 70%;*/
+    display: flex;
+    justify-self: flex-end;
+    justify-content: flex-end;
+    align-self: flex-end;
+
+    background-color: rgb(159, 225, 245);
+    width: 100%;
+
+}
+#container-publicidad{
+    width:25%;
+    justify-content: flex-end;
+}
+.imagen-publicidad{
+    width: 100%;
+}
+.publicidad{
+    display: flex;
+    justify-content: center;
 }
