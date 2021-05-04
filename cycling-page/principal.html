@@ -8,20 +8,18 @@
   <title>Pagina ciclismo</title>
   <link rel="stylesheet" type="text/css" href="principal.css">
 </head>
-
 <body>
   <header>
     <div class="Barra-principal">
       <h1>Pagina Ciclismo</h1>
-      <form id="barra-buscador" method="GET">
+      <form id="barra-buscador">
         <label for="buscador">
-          <input type="text" placeholder="¿que deseas buscar?" value="">
+          <input type="text" placeholder="git¿que deseas buscar?" value="">
         </label>
         <button type="submit">Buscar</button>
       </form>
       <ul id="iniciar-sesion-crear-cuenta">
-        <li><a class="color-link-header" href="#">Iniciar sesión</a></li>
-        <li><a class="color-link-header" href="#">Crear cuenta</a></li>
+        <li><a class="color-link-header" href="#"><strong>Iniciar sesión</strong></a></li>
       </ul>
     </div>
     <nav>
@@ -39,10 +37,8 @@
       <p>Bienvenidos a <strong>Pagina ciclismo</strong> en la cual veremos los distintos tipos de bicicletas, la
         funcionalidad, y conceptos basicos para introducirse al mundo del ciclismo</p>
     </section>
-    <br>
     <h2 id="titulo-tipos-bicicletas">Tipos de Bicicletas</h2>
     <section id="types-bycicles">
-      <br>
       <div id="bicicleta-de-carretera">
         <h2 id="carretera">Carretera</h2>
         <img class="imagen-tipo-principal"
@@ -91,31 +87,45 @@
           <li>Sus cuadros y ruedas no estan echos para cargar mucho peso</li>
           <li>su geometria busca ser eficiente, no comoda</li>
         </ul>
-        <div id="seccion-publicidad">
-          <section>
-            <div id="container-publicidad">
-
-              <div class="publicidad">
-                <a href="https://www.trekbikes.com/es/es_ES/" target="_top"><img class="imagen-publicidad"
-                  src="https://i.pinimg.com/originals/6a/5e/f8/6a5ef8ba3b27a9542caf31564611ce7c.jpg" alt="TREK" /></a>
-                </div>
-                <div class="publicidad">
-                  <a href="https://www.orbea.com/es-es/" target="_top"><img class="imagen-publicidad"
-                    src="https://content.orbea.com/descargar.php?file=01_logo_orbea_negro_neg.jpg&folder=orbea%252Fcorporate%252Flogo+orbea%252Fjpeg"
-                    alt="ORBEA" /></a>
-                  </div>
-                  <div class="publicidad">
-                    <a href="https://www.specialized.com/es/es" target="_top"><img class="imagen-publicidad"
-                      src="https://cdn.todomountainbike.net/images/articles/2020/specialized-usa-donacion-mascarillas-sanitarias.jpg"
-                      alt="SPECIALIZED" /></a>
-                    </div>
-                  </div>
-          </section>
+      </div>
+     </seccion>
+      <seccion class="seccion-publicidad">
+        <div class="publicidad">
+          <a href="https://www.trekbikes.com/es/es_ES/" target="_blanc"><img class="imagen-publicidad"
+            src="https://i.pinimg.com/originals/6a/5e/f8/6a5ef8ba3b27a9542caf31564611ce7c.jpg" alt="TREK" /></a>
         </div>
-    </section>
+        <div class="publicidad">
+          <a href="https://www.orbea.com/es-es/" target="_blanc"><img class="imagen-publicidad"
+              src="https://content.orbea.com/descargar.php?file=01_logo_orbea_negro_neg.jpg&folder=orbea%252Fcorporate%252Flogo+orbea%252Fjpeg"
+              alt="ORBEA" /></a>
+        </div>
+        <div class="publicidad">
+              <a href="https://www.specialized.com/es/es" target="_blanc"><img class="imagen-publicidad"
+                src="https://cdn.todomountainbike.net/images/articles/2020/specialized-usa-donacion-mascarillas-sanitarias.jpg"
+                alt="SPECIALIZED" /></a>
+        </div>
+      </seccion>
   </main>
   <footer>
-
+    <section id="quiero-inscribirme">
+    <h2>Quiero Inscribirme</h2>
+    <p>Recibe un correo electronico con las ultimas noticias</p>
+    <form>
+      <input type="email" placeholder="correo electronico" required>
+      <button type="submit">Unete</button>
+    </form>
+    </section>
+    <section id="pie-pagina">
+    <nav>
+      <ul>
+        <li><a class="color-link-footer" href="#">Publicidad -</a></li>
+        <li><a class="color-link-footer" href="#">Colabora -</a></li>
+        <li><a class="color-link-footer" href="#">contacto -</a></li>
+        <li><a class="color-link-footer" href="#">Aviso de privacidad -</a></li>
+        <li><a class="color-link-footer" href="#">Acerca de <strong>Pagina Ciclismo</strong></a></li>
+      </ul>
+    </nav>
+    </section>
   </footer>
 </body>
 
