@@ -1,6 +1,97 @@
-<a id="iniciar-sesion" class="tu-sesion" href="iniciar-sesion.html" title="accede a tu cuenta">
-    <span>Iniciar sesión</span>
-  </a>
-  <a id="crear-cuenta" class="tu-sesion" href="crear-cuenta-html" title="crea tu cuenta">
-    <span>Crear cuenta</span>
-  </a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+      <div class="Barra-principal">
+        <a id="link-titulo" href="principal.html"><h1>Pagina Ciclismo</h1></a>
+      </div>
+  </header>
+  <main id="iniciar-sesion-crear-cuenta">
+      <div id="iniciar-sesion" class="pagina-registrarse">
+        <h3>Iniciar sesion</h3>
+        <form class="formulario-registrarse">
+          <label for="usuario">Usuario 
+            <br>
+            <input type="email" required>
+          </label>
+          <br>
+          <label for="contraseña">Contraseña 
+            <br>
+            <input type="password" required>
+          </label>
+          <br>
+          <br>
+          <button type="submit">Log in</button>
+        </form>
+      </div>
+      <div id="crear-cuenta" class="pagina-registrarse">
+        <h3>Registrarse</h3>
+        <form class="formulario-registrarse">
+          <label for="name">Nombre
+            <br>
+            <input id="name" type="text" value="" required>
+          </label>
+          <br>
+          <label for="first-last-name">Primer apellido
+          <br>
+            <input id="first-last-name" type="text" value="" required>
+          </label>
+          <br>
+          <label for="second-last-name">Segundo apellido*
+            <br>
+            <input id="second-last-name" type="text" value="">
+          </label>
+          <br>
+          <label for="birthday">fecha de nacimiento
+            <br>
+            <input id="birthday" type="date" value="" required>
+          </label>
+          <br>
+          <label for="email">correo electronico
+            <br>
+            <input id="email" type="email" value="" required>
+          </label>
+          <br>
+          <label for="password">contraseña 
+            <br>
+            <input id="password" type="text" value="" required>
+          </label>
+          <br>
+          <br>
+          <button type="submit">Registrarse</button>
+          <br>
+          <small>*opcional</small>
+        </form>
+      </div>
+  </main>
+  <footer>
+    <section id="quiero-inscribirme">
+    <h2>Quiero Inscribirme</h2>
+    <p>Recibe un correo electronico con las ultimas noticias</p>
+    <form>
+      <input type="email" placeholder="correo electronico" required>
+      <button type="submit">Unete</button>
+    </form>
+    </section>
+    <section id="pie-pagina">
+    <nav>
+      <ul>
+        <li><a class="color-link-footer" href="#">Publicidad </a></li>
+        <li><a class="color-link-footer" href="#">Colabora </a></li>
+        <li><a class="color-link-footer" href="https://github.com/manaure23" target="_blanc">contacto </a></li>
+        <li><a class="color-link-footer" href="#">Aviso de privacidad </a></li>
+        <li><a class="color-link-footer" href="#">Acerca de <strong>Pagina Ciclismo</strong></a></li>
+      </ul>
+    </nav>
+    </section>
+  </footer>
+  
+</body>
+</html>
